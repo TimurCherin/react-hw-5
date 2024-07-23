@@ -3,7 +3,7 @@ export const Image = styled.img`
   margin-left: auto;
   margin-right: auto;
   width: 200px;
-  height: 250px;
+  height: 200px;
 `;
 export const Title = styled.h2`
   font-size: 15px;

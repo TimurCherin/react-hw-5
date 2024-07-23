@@ -25,7 +25,7 @@ const ListWrap = styled.ul`
   list-style: none;
   background-color: white;
   border-radius: 50px;
-    margin-left: auto;
+  margin-left: auto;
   margin-right: auto;
 `;
 function App() {
