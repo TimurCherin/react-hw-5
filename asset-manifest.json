@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-hw-5/static/css/main.f855e6bc.css",
-    "main.js": "/react-hw-5/static/js/main.37ceb160.js",
+    "main.js": "/react-hw-5/static/js/main.c3a8d77f.js",
     "static/js/453.0289c965.chunk.js": "/react-hw-5/static/js/453.0289c965.chunk.js",
     "static/media/spicypotatosalad.png": "/react-hw-5/static/media/spicypotatosalad.fa6f84d8719888451ef1.png",
     "static/media/cookedpotato.png": "/react-hw-5/static/media/cookedpotato.8267120b5cc6b19d65b0.png",
@@ -9,11 +9,11 @@
     "static/media/burger.png": "/react-hw-5/static/media/burger.673d0efa735febb8c3e3.png",
     "index.html": "/react-hw-5/index.html",
     "main.f855e6bc.css.map": "/react-hw-5/static/css/main.f855e6bc.css.map",
-    "main.37ceb160.js.map": "/react-hw-5/static/js/main.37ceb160.js.map",
+    "main.c3a8d77f.js.map": "/react-hw-5/static/js/main.c3a8d77f.js.map",
     "453.0289c965.chunk.js.map": "/react-hw-5/static/js/453.0289c965.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.37ceb160.js"
+    "static/js/main.c3a8d77f.js"
   ]
 }
