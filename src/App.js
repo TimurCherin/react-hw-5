@@ -1,26 +1,22 @@
 import './App.css';
 import styled from 'styled-components';
-const Image = styled.img`
-  margin-left: auto;
-  margin-right: auto;
-  width: 162px;
-  height: 250px;
-`;
-
-const Title = styled.h2`
-  font-size: 15px;
-`;
-const ItemWrap = styled.div`
-  width: 162px;
-  height: 544px;
-  text-align: center;
-  margin-right: 200px;
-`
+import burgerImg from './images/burger.png'
+import chickenbiryaniImg from './images/chickenbiryani.png'
+import cookedpotato from './images/cookedpotato.png'
+import spicypotatosalad from './images/spicypotatosalad.png'
+import { Image, Title, TimeToCook, Servings, Weighs } from './components/infoList'
+import { DifTitle, Difficulty, BtnList, EasyBtn, MediumBtn, HardBtn, EasyActiveBtn, MediumActiveBtn, HardActiveBtn } from './components/buttonList'
 const Wrap = styled.div`
   padding: 250px;
   display: flex;
   background-color: darksalmon;
 `;
+const ItemWrap = styled.div`
+  width: 200px;
+  height: 544px;
+  text-align: center;
+  margin-right: 150px;
+`
 const ListWrap = styled.ul`
   padding: 10px 5px 10px 5px;
   width: 162px;
@@ -29,87 +25,14 @@ const ListWrap = styled.ul`
   list-style: none;
   background-color: white;
   border-radius: 50px;
+    margin-left: auto;
+  margin-right: auto;
 `;
-const TimeToCook = styled.li`
-  font-size: 12px;
-  margin-right: 5px;
-`;
-const Servings = styled.li`
-  font-size: 12px;
-  margin-right: 5px;
-`;
-const Weighs = styled.li`
-  font-size: 12px;
-`;
-const DifTitle = styled.h3`
-  font-size: 18px;
-  margin-bottom: 5px;
-`
-const Difficulty = styled.div`
-  width: 162px;
-  height: 100px;
-  padding: 5px;
-  background-color: white;
-  border-radius: 15px;
-`
-const BtnList = styled.div`
-  display: flex;
-  width: 162px;
-  justify-content: space-around;
-`
-const EasyBtn = styled.button`
-  width: 40px;
-  height: 25px;
-  color: black;
-  background-color: wheat;
-  padding: 0px;
-  border-radius: 25px;
-`
-const MediumBtn = styled.button`
-  width: 55px;
-  height: 25px;
-  color: black;
-  background-color: wheat;
-   padding: 0px;
-   border-radius: 25px;
-`
-const HardBtn = styled.button`
-  width: 40px;
-  height: 25px;
-  color: black;
-  background-color: wheat;
-  padding: 0px;
-  border-radius: 25px;
-`
-const EasyActiveBtn = styled.button`
-  width: 40px;
-  height: 25px;
-  color: white;
-  background-color: pink;
-  padding: 0px;
-   border-radius: 25px;
-`
-const MediumActiveBtn = styled.button`
-  width: 55px;
-  height: 25px;
-  color: white;
-  background-color: pink;
-  padding: 0px;
-   border-radius: 25px;
-`
-const HardActiveBtn = styled.button`
-  width: 40px;
-  height: 25px;
-  color: white;
-  background-color: pink;
-  padding: 0px;
-   border-radius: 25px;
-`
 function App() {
   return (
     <Wrap>
       <ItemWrap>
-        <Image src='../images/burger.png' alt='Burger'></Image>
+        <Image src={burgerImg} alt='Burger'></Image>
         <Title>Tasty Burger</Title>
         <ListWrap>
           <TimeToCook>20 min</TimeToCook>
@@ -126,7 +49,7 @@ function App() {
         </Difficulty>
       </ItemWrap>
       <ItemWrap>
-        <Image src='../images/chickenbiryani.png' alt='chickenbiryani'></Image>
+        <Image src={chickenbiryaniImg} alt='chickenbiryani'></Image>
         <Title>Chicken Biryani</Title>
         <ListWrap>
           <TimeToCook>15 min</TimeToCook>
@@ -143,7 +66,7 @@ function App() {
         </Difficulty>
       </ItemWrap>
       <ItemWrap>
-        <Image src='../images/cookedpotato.png' alt='cookedpotato'></Image>
+        <Image src={cookedpotato} alt='cookedpotato'></Image>
         <Title>Cooked Potato</Title>
         <ListWrap>
           <TimeToCook>30 min</TimeToCook>
@@ -160,7 +83,7 @@ function App() {
         </Difficulty>
       </ItemWrap>
       <ItemWrap>
-        <Image src='../images/spicypotatosalad.png' alt='spicypotatosalad'></Image>
+        <Image src={spicypotatosalad} alt='spicypotatosalad'></Image>
         <Title>Spicy Potato Salad</Title>
         <ListWrap>
           <TimeToCook>40 min</TimeToCook>
